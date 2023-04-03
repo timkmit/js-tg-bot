@@ -1,16 +1,17 @@
 import React from 'react'
 import { useTelegram } from '../../hooks/useTelegram'
 
-export default function Header() {
+const Header = () => {
 
     const {user, onClose} = useTelegram();
 
   return (
     <div className={'header'}>
-        <Button onClick={onClose}>Close</Button>
+        <button onClick={onClose}>Close</button>
         <span className={'username'}>
             {user?.username}
         </span>
     </div>
   )
 }
+export default Header;
