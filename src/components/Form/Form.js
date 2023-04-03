@@ -15,7 +15,7 @@ export default function Form() {
             street,
             subject,
         }
-        tg.senData(JSON.stringify(data));
+        tg.sendData(JSON.stringify(data));
     },[])
 
     useEffect(() => {
