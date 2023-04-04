@@ -1,22 +1,26 @@
 .product{
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--tg-theme-button-color);
+    border: 1px solid rgb(73, 203, 255);
     padding: 15px;
     width: 170px;
 }
 
 .img{
-    width: 100%;
+    width: 95%;
     height: 100px;
     margin: 0 auto;
-    background-color: var(--tg-theme-button-color)
+    background-color: rgb(73, 203, 255);
+    margin-bottom: 5px;
 }
 
 .description{
+    padding-top: 5px;
     font-size: 0.8em;
 }
 
 .add-btn{
+    margin-top: 5px;
     width: 100%;
+    border-radius: 30px;
 }
