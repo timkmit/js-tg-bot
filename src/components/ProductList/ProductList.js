@@ -56,7 +56,7 @@ export default function ProductList() {
         {products.map(item => (
             <ProductItem
             product={item}
-            onAdd={onAdd}
+            onClick={onAdd}
             className={'item '}
             />
         ))}
